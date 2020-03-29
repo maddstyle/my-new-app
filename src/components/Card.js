@@ -1,6 +1,6 @@
 import React from "react";
 
-const card = ({ title, director }) => {
+const Card = ({ title, director }) => {
   return (
     <div>
       <h2>{title}</h2>
@@ -9,4 +9,4 @@ const card = ({ title, director }) => {
   );
 };
 
-export default card;
+export default Card;

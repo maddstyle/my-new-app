@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.list-style {
+  text-align: left;
+  list-style: none;
+}
+
+.movies-list-item {
+  width: 400px;
+  border: 1px black solid;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px auto;
+}

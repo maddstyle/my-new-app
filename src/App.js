@@ -3,6 +3,7 @@ import User from "./components/User";
 // import ReactPlayer from "react-player";
 import "./App.css";
 import { listItems, MoviesList } from "./components/ListDemo";
+import DynamicMoviesList from './components/dynamicListDemo/DynamicMoviesList';
 
 //PROPS CLASS LESSON EXAMPLE
 
@@ -79,8 +80,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header></Header>
-        <Header />
         <ul className="list-style">{listItems}</ul>
         <MoviesList />
         <ul>{listItems}</ul>
@@ -99,6 +98,7 @@ class App extends Component {
           lastName={this.state.userB.lastName}
           image={this.state.userB.avatarUrl}
         />
+        <DynamicMoviesList />
       </div>
     );
   }
