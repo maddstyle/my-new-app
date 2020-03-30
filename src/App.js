@@ -5,6 +5,7 @@ import "./App.css";
 import { listItems, MoviesList } from "./components/ListDemo";
 import DynamicMoviesList from './components/dynamicListDemo/DynamicMoviesList';
 
+
 //PROPS CLASS LESSON EXAMPLE
 
 // class App extends Component {
